@@ -19,15 +19,38 @@ scarica il file elenco e mettilo nella cartella Download del telefono
 Poi installa Termux da qui:
 https://f-droid.org/repo/com.termux_1002.apk
 
-Ed infine copia e incolla questo su termux e premi INVIO:
+Ed infine copia e incolla questo su termux e premi INVIO(rispondi alla domanda: y):
 
 termux-change-repo && pkg update -y && pkg upgrade -y && pkg install fish -y && pkg install apt -y && termux-setup-storage && cat /storage/emulated/0/Download/elenco > /data/data/com.termux/files/usr/bin/menu && chmod +x /data/data/com.termux/files/usr/bin/menu && ~ && menu
 
+Per aprire il progetto scrivi: menu
+
 
 PER PC LINUX:
-Per installare il progetto sul terminale Linux dei PC i sismi operativi compatibili sono:
+Per installare il progetto sul terminale Linux dei PC i sistemi operativi compatibili sono:
 
 Arch Linux, Debian/Ubuntu, Fedora/Red Hat, openSUSE, Alpine e Void
+
+PER ARCH LINUX
+
+Scarica il file elenco e mettilo su Scaricati del PC
+
+Poi sul terminale copia ed incolla questo:
+
+sudo pacman -S fish --noconfirm && mkdir -p ~/.local/bin && cp -f ~/Scaricati/elenco ~/.local/bin/menu && chmod +x ~/.local/bin/menu && fish -c 'fish_add_path ~/.local/bin'
+
+Per aprire il progetto scrivi: menu
+
+PER DEBIAN/UBUNTU
+
+Scarica il file elenco e mettilo su Scaricati del PC
+
+Poi sul terminale copia ed incolla questo:
+
+sudo apt update && sudo apt upgrade -y && sudo apt install fish -y && mkdir -p ~/.local/bin && cp -f ~/Scaricati/elenco ~/.local/bin/menu && chmod +x ~/.local/bin/menu && fish -c 'fish_add_path ~/.local/bin'
+
+Per aprire il progetto scrivi: menu
+
 
 
 
