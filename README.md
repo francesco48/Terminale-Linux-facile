@@ -10,3 +10,28 @@ serve ad utilizzare un terminale tipo termux(si installa su android) e terminale
 Perché l' ho creato?
 
 Per cercare di facilitare l'utilizzo del terminale
+
+Come si installa il progetto:
+
+PER TERMUX:
+scarica il file elenco e mettilo nella cartella Download del telefono
+
+Poi installa Termux da qui:
+https://f-droid.org/repo/com.termux_1002.apk
+
+Ed infine copia e incolla questo su termux e premi INVIO:
+
+termux-change-repo && pkg update -y && pkg upgrade -y && pkg install fish -y && pkg install apt -y && termux-setup-storage && cat /storage/emulated/0/Download/elenco > /data/data/com.termux/files/usr/bin/menu && chmod +x /data/data/com.termux/files/usr/bin/menu && ~ && menu
+
+
+PER PC LINUX:
+Per installare il progetto sul terminale Linux dei PC i sismi operativi compatibili sono:
+
+Arch Linux, Debian/Ubuntu, Fedora/Red Hat, openSUSE, Alpine e Void
+
+
+
+
+
+
+
