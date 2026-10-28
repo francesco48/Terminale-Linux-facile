@@ -13,7 +13,7 @@ Per cercare di facilitare l'utilizzo del terminale
 
 Come si installa il progetto:
 
-PER TERMUX:
+⚫PER TERMUX:
 scarica il file elenco e mettilo nella cartella Download del telefono
 
 Poi installa Termux da qui:
@@ -26,12 +26,12 @@ termux-change-repo && pkg update -y && pkg upgrade -y && pkg install fish -y && 
 Per aprire il progetto scrivi: menu
 
 
-PER PC LINUX:
+💻PER PC LINUX:
 Per installare il progetto sul terminale Linux dei PC i sistemi operativi compatibili sono:
 
 Arch Linux, Debian/Ubuntu, Fedora/Red Hat, openSUSE, Alpine e Void
 
-PER ARCH LINUX
+🏹PER ARCH LINUX
 
 Scarica il file elenco e mettilo su Scaricati del PC
 
@@ -41,7 +41,7 @@ sudo pacman -S fish --noconfirm && mkdir -p ~/.local/bin && cp -f ~/Scaricati/el
 
 Per aprire il progetto scrivi: menu
 
-PER DEBIAN/UBUNTU
+🔴🟠PER DEBIAN/UBUNTU
 
 Scarica il file elenco e mettilo su Scaricati del PC
 
@@ -51,10 +51,42 @@ sudo apt update && sudo apt upgrade -y && sudo apt install fish -y && mkdir -p ~
 
 Per aprire il progetto scrivi: menu
 
+🎩PER FEDORA/RED HAT
 
+Scarica il file elenco e mettilo su Scaricati del PC
 
+Poi sul terminale copia ed incolla questo:
 
+sudo dnf upgrade -y && sudo dnf install fish -y && mkdir -p ~/.local/bin && cp -f ~/Scaricati/elenco ~/.local/bin/menu && chmod +x ~/.local/bin/menu && fish -c 'fish_add_path ~/.local/bin'
 
+Per aprire il progetto scrivi: menu
 
+🦎PER openSUSE
 
+Scarica il file elenco e mettilo su Scaricati del PC
 
+Poi sul terminale copia e incolla questo:
+
+sudo zypper refresh && sudo zypper update -y && sudo zypper install fish -y && mkdir -p ~/.local/bin && cp -f ~/Scaricati/elenco ~/.local/bin/menu && chmod +x ~/.local/bin/menu && fish -c 'fish_add_path ~/.local/bin'
+
+Per aprire il progetto scrivi: menu
+
+🏔️PER APINE
+
+Scarica il file elenco e mettilo su Scaricati del PC
+
+Poi sul terminale copia ed incolla questo:
+
+sudo apk update && sudo apk upgrade && sudo apk add fish && mkdir -p ~/.local/bin && cp -f ~/Scaricati/elenco ~/.local/bin/menu && chmod +x ~/.local/bin/menu && fish -c 'fish_add_path ~/.local/bin'
+
+Per aprire il progetto scrivi: menu
+
+🚀PER VOID
+
+Scarica il file elenco e mettilo su Scaricati del PC
+
+Poi sul terminale copia ed incolla questo:
+
+sudo xbps-install -Syu && sudo xbps-install -S fish && mkdir -p ~/.local/bin && cp -f ~/Scaricati/elenco ~/.local/bin/menu && chmod +x ~/.local/bin/menu && fish -c 'fish_add_path ~/.local/bin'
+
+Per aprire il progetto scrivi: menu
