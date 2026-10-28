@@ -81,7 +81,7 @@ Per aprire il progetto scrivi: menu
 
 Per aggiornare il progetto eseguire la stessa procedura di installazione
 
-🏔️PER APINE
+🏔️PER ALPINE
 
 Scarica il file elenco e mettilo su Scaricati del PC
 
